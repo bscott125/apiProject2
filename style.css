@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+}
+
+h1{
+	font-size: 70px;
+	font-family: fantasy;
+}
+
+h2{
+	color: orange;
+}
+
+h4{
+	color: orange;
+}
+.main{
+   font-weight:bold;
+	 font-size: larger;
+		text-align: center;
+		color:white;
+}
+#content{
+	text-align: center;
+}
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Nasa</title>
+</head>
+<body>
+	
+	<div class = "main">
+		<img src="https://www.jpl.nasa.gov/edu/images/mars.jpg" width = "400" length = "300">
+  <h1>EXPLORE MARS</h1>
+		<div class="input-group mb-3">
+			<label class="input-group-text" for="inputGroupSelect01">Camera</label>
+			<select class="form-select">
+				<option selected>Choose Rover Camera</option>
+				<option>Fhaz</option>
+				<option>Rhaz</option>
+				<option>Mast</option>
+				<option>Chemcam</option>
+				<option>Mahli</option>
+				<option>Mardi</option>
+				<option>Navcam</option>
+			</select>
+		</div> <br>
+  <label>SOL (Approx. 24 hours and 40 min.)</label>
+	<input type="number" class="day"/>
+	<p><button id="data-button" onclick=getData()>Show Images</button></p>
+</div>
+	<div id="content"></div>
+
+
+	
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>
